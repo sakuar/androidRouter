@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.js.framelayoutanimate.MainActivity"
+    android:background="#eee"
+    android:id="@+id/main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+<com.example.js.framelayoutanimate.BallView
+    android:id="@+id/ballview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#aaa"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="#f00"
+        android:gravity="center"
+        android:text="下滑"/>
+</LinearLayout>
